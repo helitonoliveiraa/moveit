@@ -1,0 +1,32 @@
+.exprerienceBar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.exprerienceBar span {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--texts);
+}
+
+.exprerienceBar > div {
+  flex: 1;
+  height: 4px;
+  border-radius: 5px;
+  background: var(--gray-line);
+  margin: 0 1.5rem;
+  position: relative;
+}
+
+.exprerienceBar > div > div {
+  height: 4px;
+  background: var(--green);
+  border-radius: 5px;
+}
+
+span.currentExperience {
+  position: absolute;
+  top: 8px;
+  transform: translateX(-50%);
+}
