@@ -68,28 +68,13 @@
   margin-left: 0.8rem;
 }
 
-/* STOP COUNTDOW BUTTOM */
-.countdownStopButton {
-  width: 100%;
-  height: 8rem;
-  margin-top: 3.2rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border: none;
-  border-radius: 0.5rem;
+.countdownButtonActive {
   background: var(--white);
-
-  font-size: 2rem;
-  font-weight: 500;
   color: var(--texts);
-  
-  transition: background 0.2s ease-in-out;
 }
 
-.countdownStopButton:hover {
+.countdownButtonActive:hover {
   background: var(--red);
   color: var(--white);
 }
+
