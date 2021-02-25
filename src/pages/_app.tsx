@@ -1,12 +1,13 @@
-import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { AppProps } from 'next/app';
+import { AppProvider } from '../contexts';
 
 import '../styles/global.css';
 
-function MyApp({ Component, pageProps }): JSX.Element {
+function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
-    <ChallengesProvider>
+    <AppProvider>
       <Component {...pageProps} />
-    </ChallengesProvider>
+    </AppProvider>
   );
 }
 
