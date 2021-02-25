@@ -26,7 +26,9 @@
 </p>
 
 <p align="center">
-<img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614260731/move.it/image_lwbchg.png" alt="Move.it">
+  <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614260731/move.it/image_lwbchg.png" alt="Move.it">
+
+  <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614274808/move.it/image2_qnqfqz.png" alt="Move.it">
 </p>
 
 <br />
@@ -34,6 +36,10 @@
 ## :memo: About
 
 This application was developed during the `NLW(Next Level Week workshop)`.  An event that is created by Rocketseat programmer school.
+
+### :rocket: Plus
+
+✅ **Dark mode** - it works together with the theme Operational System or theme setting of the browser
 
 ## :wrench: Used Tecnologies
 
