@@ -1,8 +1,20 @@
 import { useChallenge } from '../contexts/ChallengesContext';
+import { useCoutdown } from '../contexts/CountdownContext';
 import styles from '../styles/components/ChallengeBox.module.css';
 
 export function ChallengeBox(): JSX.Element {
-  const { activeChallenge, resetChallenge } = useChallenge();
+  const { activeChallenge, resetChallenge, completeChallenge } = useChallenge();
+  const { resetCountdown } = useCoutdown();
+
+  function handleChallengeSucceeded() {
+    completeChallenge();
+    resetCountdown();
+  }
+
+  function handleChallengeFailed() {
+    resetChallenge();
+    resetCountdown();
+  }
 
   return (
     <div className={styles.challengeBoxContainer}>
@@ -17,7 +29,7 @@ export function ChallengeBox(): JSX.Element {
           </header>
 
           <main>
-            <img src={`icons/${activeChallenge.type}.svg`} alt="Body" />
+            <img src={`icons/${activeChallenge.type}.svg`} alt="Type" />
 
             <strong>Exercite-se</strong>
 
@@ -31,13 +43,14 @@ export function ChallengeBox(): JSX.Element {
             <button
               type="button"
               className={styles.challengeFailedButton}
-              onClick={resetChallenge}
+              onClick={handleChallengeFailed}
             >
               Falhei
             </button>
             <button
               type="button"
               className={styles.challengeSucceededButton}
+              onClick={handleChallengeSucceeded}
             >
               Completei
             </button>
