@@ -38,6 +38,7 @@ function CountdownProvider({ children }: CountdowContextProps): JSX.Element {
     clearTimeout(countdownTimeout);
     setIsActive(false);
     setTime(0.1 * 60);
+    setHasFinished(false);
   }
 
   useEffect(() => {
