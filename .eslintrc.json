@@ -42,6 +42,7 @@
     "react/jsx-props-no-spreading": "off",
     "no-restricted-properties": "off",
     "no-undef": "off",
+    "no-new":"off",
     "import/extensions": [
       "error",
       "ignorePackages",
