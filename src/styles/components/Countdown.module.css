@@ -4,7 +4,7 @@
 
   font-family: Rajdhani;
   font-weight: 600;
-  
+
   color: var(--titles);
 }
 
@@ -20,7 +20,7 @@
   border-radius: 0.5rem;
   font-size: 12rem;
   text-align: center;
-} 
+}
 
 .countdownContainer > div span {
   flex: 1;
@@ -65,7 +65,7 @@
 }
 
 .countdownButton img {
-  margin-left: 0.8rem;
+  margin-left: 1.6rem;
 }
 
 .countdownButtonActive {
@@ -78,3 +78,9 @@
   color: var(--white);
 }
 
+.countdownButton:disabled {
+  background: var(--white);
+  color: var(--texts);
+  border-bottom: 0.4rem solid var(--green);
+  cursor: not-allowed;
+}
