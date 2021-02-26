@@ -28,7 +28,7 @@
 <p align="center">
   <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614260731/move.it/image_lwbchg.png" alt="Move.it">
 
-  <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614274808/move.it/image2_qnqfqz.png" alt="Move.it">
+  <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614352548/move.it/image_3_n2iwqg.png" alt="Move.it">
 </p>
 
 <br />
