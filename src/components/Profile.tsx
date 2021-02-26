@@ -6,12 +6,12 @@ export function Profile(): JSX.Element {
 
   return (
     <div className={styles.profileContainer}>
-      <img src="https://avatars.githubusercontent.com/u/45343619?s=460&u=1929279b8eb8dbe2434c20e7ad7e239674b4cc17&v=4" alt="Héliton Oliveira" />
+      <img src="https://avatars.githubusercontent.com/u/45343619?s=460&u=1929279b8eb8dbe2434c20e7ad7e239674b4cc17&v=4" alt="Avatar" />
 
       <div>
-        <strong>Héliton Oliveira</strong>
+        <strong data-testid="name">Héliton Oliveira</strong>
         <p>
-          <img src="icons/level.svg" alt="level icon" />
+          <img src="icons/level.svg" alt="Level" />
           Level
           {' '}
           {level}
