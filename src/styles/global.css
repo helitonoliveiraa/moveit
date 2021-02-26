@@ -15,12 +15,14 @@
   --texts: #666666;
   --gray-line: #DCDDE0;
   --background: #F2F3F5;
+  --background-overlay: rgba(242, 243, 245, 0.8);
   --white: #FFFFFF;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #121214;
+    --background-overlay: rgb(18, 18, 20, 0.8);
     --white: #29292E;
     --titles: #E1E1E6;
     --texts: #A8A8B3;
