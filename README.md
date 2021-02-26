@@ -14,6 +14,8 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/helitonoliveiraa/moveit.svg?color=%2339b100">
 
+  <img alt="coverage" src="https://img.shields.io/codecov/c/gh/helitonoliveiraa/moveit?logo=codecov" />
+
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/helitonoliveiraa/moveit?color=%232AA9E0">
 
   <a href="https://www.linkedin.com/in/helitonoliveira/">
