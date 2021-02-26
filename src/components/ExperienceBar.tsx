@@ -1,7 +1,7 @@
 import { useChallenge } from '../contexts/ChallengesContext';
 import styles from '../styles/components/ExperienceBar.module.css';
 
-export function ExperienceBar() {
+export function ExperienceBar(): JSX.Element {
   const { currentExperience, experienceToNextLevel } = useChallenge();
 
   const percentToNextLevel = Math.round(currentExperience * 100) / experienceToNextLevel;
