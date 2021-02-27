@@ -31,6 +31,10 @@
   <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614260731/move.it/image_lwbchg.png" alt="Move.it">
 
   <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614352548/move.it/image_3_n2iwqg.png" alt="Move.it">
+
+  <a href="https://moveit.heliton.dev/">
+    <img src="https://res.cloudinary.com/dzn5ixmhq/image/upload/v1614434454/vercel-logo_xwytbg.png" width="100">
+  </a>
 </p>
 
 <br />
