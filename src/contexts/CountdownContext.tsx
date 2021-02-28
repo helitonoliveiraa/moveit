@@ -23,7 +23,7 @@ let countdownTimeout: NodeJS.Timeout;
 function CountdownProvider({ children }: CountdowContextProps): JSX.Element {
   const { startNewChallenge } = useChallenge();
 
-  const [time, setTime] = useState(25 * 60);
+  const [time, setTime] = useState(0.05 * 60);
   const [isActive, setIsActive] = useState(false);
   const [hasFinished, setHasFinished] = useState(false);
 
@@ -37,7 +37,7 @@ function CountdownProvider({ children }: CountdowContextProps): JSX.Element {
   function resetCountdown() {
     clearTimeout(countdownTimeout);
     setIsActive(false);
-    setTime(25 * 60);
+    setTime(0.05 * 60);
     setHasFinished(false);
   }
 
