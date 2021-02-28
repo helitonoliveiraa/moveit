@@ -16,3 +16,16 @@
   gap: 10rem;
   align-content: center;
 }
+
+@media(max-width: 700px) {
+  .container section {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10rem;
+    align-content: center;
+
+    padding-bottom: 3rem;
+  }
+}

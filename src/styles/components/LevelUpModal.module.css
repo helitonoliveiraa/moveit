@@ -50,6 +50,12 @@
   right: 0.8rem;
 }
 
+@media(max-width: 700px) {
+  .levelUpModalContainer {
+    margin: 0 2rem;
+  }
+}
+
 /* .levelUpModalContainer button {
   width: 100%;
   display: flex;

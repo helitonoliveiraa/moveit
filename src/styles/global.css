@@ -44,13 +44,31 @@ html {
   }
 }
 
-@media(max-width: 700px) {
+@media(max-width: 950px) {
+  html {
+    font-size: 53.13%;
+  }
+}
+
+@media(max-width: 900px) {
   html {
     font-size: 50%;
   }
 }
 
+@media(max-width: 850px) {
+  html {
+    font-size: 46.9%;
+  }
+}
 
+@media(max-width: 800px) {
+  html {
+    font-size: 43.8%;
+  }
+}
+
+/* 40.625 */
 
 body {
   background: var(--background);
