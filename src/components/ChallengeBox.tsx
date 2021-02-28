@@ -47,10 +47,12 @@ export function ChallengeBox(): JSX.Element {
             >
               Falhei
             </button>
+
             <button
               type="button"
               className={styles.challengeSucceededButton}
               onClick={handleChallengeSucceeded}
+              data-testid="batata"
             >
               Completei
             </button>
