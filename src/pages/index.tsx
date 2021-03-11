@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 import { CompletedChallenges } from '../components/CompletedChallenges';
-import { Countdow } from '../components/Countdown';
+import { Countdown } from '../components/Countdown';
 import { ExperienceBar } from '../components/ExperienceBar';
 import { Profile } from '../components/Profile';
 
@@ -10,6 +10,7 @@ import { ChallengesProvider } from '../contexts/ChallengesContext';
 import styles from '../styles/pages/Home.module.css';
 import { ChallengeBox } from '../components/ChallengeBox';
 import { CountdownProvider } from '../contexts/CountdownContext';
+import { SignIn } from './sign-in';
 
 interface HomeProps {
   level: number;
@@ -22,6 +23,12 @@ export default function Home({
   currentExperience,
   challengesCompleted,
 }: HomeProps): JSX.Element {
+  const user = false;
+
+  if (!user) {
+    return <SignIn />;
+  }
+
   return (
     <ChallengesProvider
       level={level}
@@ -40,7 +47,7 @@ export default function Home({
             <div>
               <Profile />
               <CompletedChallenges />
-              <Countdow />
+              <Countdown />
             </div>
             <div>
               <ChallengeBox />

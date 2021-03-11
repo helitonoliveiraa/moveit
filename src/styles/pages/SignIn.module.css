@@ -1,0 +1,94 @@
+.container {
+  height: 100vh;
+  background: var(--blue-primary);
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.background {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  background: url('../../../public/background.svg') no-repeat;
+  background-position-y: center;
+}
+
+.background img {
+  max-width: 76.8rem;
+}
+
+.content {
+  height: 100vh;
+  max-width: 70rem;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.content main {
+  display: flex;
+  flex-direction: column;
+}
+
+.content main img {
+  max-width: 36rem;
+}
+
+.content main strong {
+  margin: 9.6rem 0 2.4rem;
+  font-weight: 600;
+  font-size: 3.6rem;
+  color: var(--white);
+}
+
+.content main div {
+  display: flex;
+  align-items: center;
+  color: var(--text-blue);
+}
+
+.content main div svg {
+  margin-right: 2.4rem;
+}
+
+.content main div p {
+  max-width: 25.6rem;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.content main section {
+  margin-top: 4rem;
+  display: flex;
+}
+
+.content main section input {
+  height: 8rem;
+  max-width: 34rem;
+  padding: 2.3rem 3rem;
+  border: none;
+  border-radius: 0.5rem 0 0 0.5rem;
+  background: linear-gradient(0.25turn, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.01));
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.content main section input::placeholder {
+  font-size: 2rem;
+  color: var(--text-blue);
+}
+
+.loginButton {
+  width: 8rem;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  background:rgba(0, 0, 0, 0.2);
+  color: var(--white);
+}
+
+.active {
+  background: var(--green);
+}

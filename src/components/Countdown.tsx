@@ -1,7 +1,7 @@
 import { useCoutdown } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
 
-export function Countdow(): JSX.Element {
+export function Countdown(): JSX.Element {
   const {
     minutes, seconds, isActive, hasFinished, startCountdown, resetCountdown,
   } = useCoutdown();

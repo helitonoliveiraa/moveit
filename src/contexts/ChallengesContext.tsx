@@ -134,4 +134,4 @@ function useChallenge(): ChallengeContextData {
   return context;
 }
 
-export { ChallengesProvider, useChallenge };
+export { ChallengesProvider, useChallenge }
