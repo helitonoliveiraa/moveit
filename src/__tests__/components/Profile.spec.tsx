@@ -10,7 +10,7 @@ describe('Profile', () => {
     const levelImg = getByAltText('Level');
 
     expect(avatarImg).toBeVisible();
-    expect(name).toBeVisible();
+    expect(name).toBeInTheDocument();
     expect(levelImg).toBeVisible();
   });
 });

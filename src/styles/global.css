@@ -19,7 +19,7 @@
   --white: #FFFFFF;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #121214;
     --background-overlay: rgb(18, 18, 20, 0.8);
@@ -31,7 +31,7 @@
   img {
     filter: brightness(0.9);
   }
-}
+} */
 
 
 html {
